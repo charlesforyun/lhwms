@@ -1,0 +1,32 @@
+Student.objects.filter(score__course=3).values('id', 'name')
+{'sql': 'SELECT `student`.`id`, `student`.`name` '
+        'FROM `student` INNER JOIN `score` '
+        'ON ''(`student`.`id` = `score`.`student_id`) '
+        'WHERE `score`.`course_id` = 3', 'time': '0.000'}
+
+SELECT s%(id) FROM s%(table) WHERE s%(re)
+
+'sql': 'SELECT `student`.`id`, `student`.`name` FROM `student` INNER JOIN `score`
+ON (`student`.`id` = `score`.`student_id`) WHERE
+(`score`.`course_id` = 1 AND `score`.`course_id` = 2)', 'time': '0.000'}
+
+{'sql': 'SELECT `student`.`id`, `student`.`name` FROM `student` INNER JOIN `score`
+ON (`student`.`id` = `score`.`student_id`) WHERE
+`score`.`course_id` IN (1, 2)', 'time': '0.000'}]
+
+(`score`.`course_id` = 1 OR `score`.`course_id` = 2)
+
+name = Course.objects.filter(teacher__name='杨腊梅')
+{'sql': "SELECT `course`.`id`, `course`.`name`, `course`.`teacher_id`
+FROM `course` INNER JOIN `teacher` ON (`course`.`teacher_id` = `teacher`.`id`)
+WHERE `teacher`.`name` = '杨腊梅'", 'time': '0.000'}]
+
+name1 = Course.objects.select_related('teacher').get(name='语文').teacher.name
+{'sql': "SELECT `course`.`id`, `course`.`name`, `course`.`teacher_id`, `teacher`.`id`, `teacher`.`name`
+FROM `course` LEFT OUTER JOIN `teacher` ON (`course`.`teacher_id` = `teacher`.`id`)
+WHERE `course`.`name` = '语文' LIMIT 21", 'time': '0.000'}
+
+name2 = Teacher.objects.filter(course__name='语文').values('name')
+{'sql': "SELECT `teacher`.`name`
+FROM `teacher` INNER JOIN `course` ON (`teacher`.`id` = `course`.`teacher_id`)
+WHERE `course`.`name` = '语文' LIMIT 21", 'time': '0.000'}

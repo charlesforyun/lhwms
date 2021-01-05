@@ -1,0 +1,11 @@
+2020-12-09 10:49:25,689 - ERROR - publicLog.py[:60]- maximum recursion depth exceeded
+2020-12-09 10:49:42,931 - ERROR - publicLog.py[:60]- maximum recursion depth exceeded
+2020-12-09 16:08:11,668 - ERROR - publicLog.py[:60]- Unsupported lookup 'rang' for DateTimeField or join on the field not permitted.
+2020-12-09 16:10:28,384 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:30:07,878 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:31:15,517 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:35:44,611 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:39:33,889 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:39:53,588 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:52:46,622 - ERROR - publicLog.py[:60]- type object 'datetime.datetime' has no attribute 'datetime'
+2020-12-09 18:22:39,081 - ERROR - publicLog.py[:60]- (1048, "Column 'user_id' cannot be null")

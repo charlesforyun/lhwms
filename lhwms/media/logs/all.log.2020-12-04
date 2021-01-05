@@ -1,0 +1,367 @@
+2020-12-04 09:48:54,447 - WARNING - publicLog.py[:56]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 09:48:56,099 - WARNING - publicLog.py[:56]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 09:48:56,303 - WARNING - publicLog.py[:56]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 09:48:56,492 - WARNING - publicLog.py[:56]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:05:43,670 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:06:10,073 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:06:11,788 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:06:11,958 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:06:12,112 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:06:12,302 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:06:12,461 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:06:12,822 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:06:12,974 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:06:13,162 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:09:32,408 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:09:40,182 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:12:19,311 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:17:32,473 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:18:26,822 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:18:35,620 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:19:04,331 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:19:18,324 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:19:36,232 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:19:38,203 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:20:40,268 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:21:42,139 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:21:57,832 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:03,576 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:03,760 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:03,912 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:04,089 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:04,266 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:04,431 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:04,600 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:04,771 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:04,933 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:22:05,091 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 11:23:32,753 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 14:10:39,825 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 14:11:21,104 - WARNING - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 74, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-04 14:42:16,077 - ERROR - publicLog.py[:52]- name 'result' is not defined
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 54, in export_excel
+    fields_export, joins)
+  File "E:\python_project\lhwms\lhwms\operator\reader.py", line 271, in export_excel
+    rc = redis.Redis(connection_pool=result)
+NameError: name 'result' is not defined

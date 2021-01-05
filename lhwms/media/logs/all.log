@@ -1,0 +1,7 @@
+2020-12-11 13:43:49,604 - ERROR - publicLog.py[:52]- name 'os' is not defined
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 81, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 151, in export_excel
+    excel_abs_dir = os.path.join(BASE_DIR, 'media', 'excels', filename)
+NameError: name 'os' is not defined

@@ -1,0 +1,175 @@
+2020-12-07 14:17:31,115 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 14:22:02,072 - ERROR - publicLog.py[:52]- 'dict' object has no attribute 'valus'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 193, in export_excel
+    for index, width in enumerate([x for x in sheetHeadData.valus()]):
+AttributeError: 'dict' object has no attribute 'valus'
+2020-12-07 14:22:06,543 - ERROR - publicLog.py[:52]- 'dict' object has no attribute 'valus'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 193, in export_excel
+    for index, width in enumerate([x for x in sheetHeadData.valus()]):
+AttributeError: 'dict' object has no attribute 'valus'
+2020-12-07 14:24:54,783 - ERROR - publicLog.py[:52]- 'DimensionHolder' object is not callable
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 195, in export_excel
+    sheet.column_dimensions(cm).width = width  # 对应字段名设置列宽
+TypeError: 'DimensionHolder' object is not callable
+2020-12-07 14:31:04,878 - ERROR - publicLog.py[:52]- [Errno 2] No such file or directory: '系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 211, in export_excel
+    workbook_remove = openpyxl.load_workbook(filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\reader\excel.py", line 316, in load_workbook
+    data_only, keep_links)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\reader\excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '系统异常日志.xlsx'
+2020-12-07 15:00:18,236 - ERROR - publicLog.py[:52]- 'WriteOnlyWorksheet' object has no attribute 'cell'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 191, in export_excel
+    sheet.cell(row=1, column=1).fill = fp
+AttributeError: 'WriteOnlyWorksheet' object has no attribute 'cell'
+2020-12-07 15:14:51,062 - ERROR - publicLog.py[:52]- 'Worksheet Sheet does not exist.'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 213, in export_excel
+    sheet_remove = workbook_remove["Sheet"]  # 选中文件sheet名
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 289, in __getitem__
+    raise KeyError("Worksheet {0} does not exist.".format(key))
+KeyError: 'Worksheet Sheet does not exist.'
+2020-12-07 15:19:35,800 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:21:06,879 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:21:08,038 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:21:10,068 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:22:20,819 - ERROR - publicLog.py[:52]- [Errno 2] No such file or directory: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:30:59,587 - ERROR - publicLog.py[:52]- 'method' object is not subscriptable
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 215, in export_excel
+    workbook.remove[sheet_remove]
+TypeError: 'method' object is not subscriptable
+2020-12-07 15:34:46,286 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件到本地
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:34:50,104 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件到本地
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:34:51,248 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件到本地
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 16:38:17,965 - ERROR - publicLog.py[:60]- Invalid order_by arguments: ['-']
+2020-12-07 17:19:50,063 - ERROR - publicLog.py[:60]- integer argument expected, got float
+2020-12-07 17:20:25,191 - ERROR - publicLog.py[:60]- integer argument expected, got float
+2020-12-07 17:20:27,210 - ERROR - publicLog.py[:60]- integer argument expected, got float
+2020-12-07 17:20:52,336 - ERROR - publicLog.py[:60]- integer argument expected, got float
+2020-12-07 17:44:07,571 - ERROR - publicLog.py[:60]- 'JsonResponse' object is not callable
+2020-12-07 17:45:46,505 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 17:47:16,578 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 17:47:18,690 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 17:48:35,439 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 18:01:15,791 - ERROR - publicLog.py[:60]- descriptor 'date' requires a 'datetime.datetime' object but received a 'int'

@@ -1,0 +1,599 @@
+2020-12-02 17:29:51,164 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:29:51,165 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:29:59,581 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:29:59,582 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:30:03,419 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:30:03,419 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:30:06,478 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:30:06,478 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:30:09,468 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:30:09,468 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:30:12,388 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:30:12,388 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:30:15,439 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:30:15,440 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:31:09,547 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:31:09,547 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:34:28,208 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:34:28,208 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:34:31,587 - ERROR - publicLog.py[:52]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+
+2020-12-02 17:34:31,587 - CRITICAL - publicLog.py[:54]- 12
+2020-12-02 17:35:54,887 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:35:54,888 - CRITICAL - publicLog.py[:60]- 12
+2020-12-02 17:35:59,843 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:35:59,843 - CRITICAL - publicLog.py[:60]- 12
+2020-12-02 17:36:04,280 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:36:04,280 - CRITICAL - publicLog.py[:60]- 12
+2020-12-02 17:37:33,605 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:37:33,606 - CRITICAL - publicLog.py[:60]- 12
+2020-12-02 17:37:39,908 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:37:39,908 - CRITICAL - publicLog.py[:60]- 12
+2020-12-02 17:37:44,936 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:37:44,936 - CRITICAL - publicLog.py[:60]- 12
+2020-12-02 17:41:35,739 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:41:35,742 - CRITICAL - publicLog.py[:60]- sdfsd
+
+2020-12-02 17:41:41,755 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:41:41,755 - CRITICAL - publicLog.py[:60]- sdfsd
+
+2020-12-02 17:42:55,820 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:42:55,821 - CRITICAL - publicLog.py[:60]- sdfsd
+
+2020-12-02 17:43:00,446 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:43:00,447 - CRITICAL - publicLog.py[:60]- sdfsd
+
+2020-12-02 17:43:30,585 - ERROR - publicLog.py[:50]- 本页结果未空\n
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:43:30,587 - CRITICAL - publicLog.py[:60]- sdfsd
+
+2020-12-02 17:43:38,011 - ERROR - publicLog.py[:50]- 本页结果未空\n
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:43:38,012 - CRITICAL - publicLog.py[:60]- sdfsd
+
+2020-12-02 17:46:49,183 - ERROR - publicLog.py[:50]- 本页结果未空
+
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:46:49,185 - CRITICAL - publicLog.py[:60]- sdfsd
+
+2020-12-02 17:46:56,953 - ERROR - publicLog.py[:50]- 本页结果未空
+
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 17:46:56,953 - CRITICAL - publicLog.py[:60]- sdfsd
+
+2020-12-02 19:00:15,418 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 19:00:29,095 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-02 19:03:24,466 - ERROR - publicLog.py[:50]- 本页结果未空
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 67, in data_paginator
+    current_page_data = paginator.page(page)  # 获取当前页数据对象
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 57, in page
+    number = self.validate_number(number)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\paginator.py", line 50, in validate_number
+    raise EmptyPage(_('That page contains no results'))
+django.core.paginator.EmptyPage: 本页结果未空
+2020-12-03 15:05:08,745 - ERROR - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 35, in search_data
+    data = data_search.data_search(request, model, query_mark=query_mark,)
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 37, in data_search
+    rc_search_result.set(rc_key, json.dumps(list(data)),
+  File "e:\python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "e:\python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "e:\python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "e:\python\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+
+2020-12-03 15:07:54,615 - ERROR - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 35, in search_data
+    data = data_search.data_search(request, model, query_mark=query_mark,)
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 37, in data_search
+    rc_search_result.set(rc_key, json.dumps(list(data)),
+  File "e:\python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "e:\python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "e:\python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "e:\python\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+
+2020-12-03 15:17:15,529 - ERROR - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 37, in search_data
+    data = data_search.data_search(request, model, query_mark=query_mark,)
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 37, in data_search
+    rc_search_result.set(rc_key, json.dumps(list(data)),
+  File "e:\python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "e:\python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "e:\python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "e:\python\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+
+2020-12-03 15:26:08,797 - ERROR - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 37, in search_data
+    data = data_search.data_search(request, model, query_mark=query_mark,)
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 35, in data_search
+    rc_search_result.set(rc_key, json.dumps(list(data)),
+  File "e:\python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "e:\python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "e:\python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "e:\python\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+
+2020-12-03 15:26:10,638 - ERROR - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 37, in search_data
+    data = data_search.data_search(request, model, query_mark=query_mark,)
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 35, in data_search
+    rc_search_result.set(rc_key, json.dumps(list(data)),
+  File "e:\python\lib\json\__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "e:\python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "e:\python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "e:\python\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+
+2020-12-03 16:01:02,767 - ERROR - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 34, in search_data
+    terms = json.loads(request.POST.get('terms'))
+  File "e:\python\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+
+2020-12-03 17:40:33,930 - ERROR - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 40, in search_data
+  File "E:\python_project\lhwms\lhwms\utils\restful.py", line 22, in ok
+    return result(message=message, data=data)
+  File "E:\python_project\lhwms\lhwms\utils\restful.py", line 18, in result
+    return JsonResponse(json_data)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\http\response.py", line 530, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "e:\python\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "e:\python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "e:\python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\serializers\json.py", line 124, in default
+    return super(DjangoJSONEncoder, self).default(o)
+  File "e:\python\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type JsonResponse is not JSON serializable
+
+2020-12-03 17:44:44,100 - ERROR - publicLog.py[:58]- Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 40, in search_data
+  File "E:\python_project\lhwms\lhwms\utils\restful.py", line 22, in ok
+    return result(message=message, data=data)
+  File "E:\python_project\lhwms\lhwms\utils\restful.py", line 18, in result
+    return JsonResponse(json_data)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\http\response.py", line 530, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "e:\python\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "e:\python\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "e:\python\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\envs\shennaji_work1\lib\site-packages\django\core\serializers\json.py", line 124, in default
+    return super(DjangoJSONEncoder, self).default(o)
+  File "e:\python\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type JsonResponse is not JSON serializable
+
+2020-12-04 14:42:16,077 - ERROR - publicLog.py[:52]- name 'result' is not defined
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 54, in export_excel
+    fields_export, joins)
+  File "E:\python_project\lhwms\lhwms\operator\reader.py", line 271, in export_excel
+    rc = redis.Redis(connection_pool=result)
+NameError: name 'result' is not defined
+2020-12-07 14:17:31,115 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 14:22:02,072 - ERROR - publicLog.py[:52]- 'dict' object has no attribute 'valus'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 193, in export_excel
+    for index, width in enumerate([x for x in sheetHeadData.valus()]):
+AttributeError: 'dict' object has no attribute 'valus'
+2020-12-07 14:22:06,543 - ERROR - publicLog.py[:52]- 'dict' object has no attribute 'valus'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 193, in export_excel
+    for index, width in enumerate([x for x in sheetHeadData.valus()]):
+AttributeError: 'dict' object has no attribute 'valus'
+2020-12-07 14:24:54,783 - ERROR - publicLog.py[:52]- 'DimensionHolder' object is not callable
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 195, in export_excel
+    sheet.column_dimensions(cm).width = width  # 对应字段名设置列宽
+TypeError: 'DimensionHolder' object is not callable
+2020-12-07 14:31:04,878 - ERROR - publicLog.py[:52]- [Errno 2] No such file or directory: '系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 211, in export_excel
+    workbook_remove = openpyxl.load_workbook(filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\reader\excel.py", line 316, in load_workbook
+    data_only, keep_links)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\reader\excel.py", line 124, in __init__
+    self.archive = _validate_archive(fn)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\reader\excel.py", line 96, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '系统异常日志.xlsx'
+2020-12-07 15:00:18,236 - ERROR - publicLog.py[:52]- 'WriteOnlyWorksheet' object has no attribute 'cell'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 191, in export_excel
+    sheet.cell(row=1, column=1).fill = fp
+AttributeError: 'WriteOnlyWorksheet' object has no attribute 'cell'
+2020-12-07 15:14:51,062 - ERROR - publicLog.py[:52]- 'Worksheet Sheet does not exist.'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 213, in export_excel
+    sheet_remove = workbook_remove["Sheet"]  # 选中文件sheet名
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 289, in __getitem__
+    raise KeyError("Worksheet {0} does not exist.".format(key))
+KeyError: 'Worksheet Sheet does not exist.'
+2020-12-07 15:19:35,800 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:21:06,879 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:21:08,038 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:21:10,068 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:22:20,819 - ERROR - publicLog.py[:52]- [Errno 2] No such file or directory: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:30:59,587 - ERROR - publicLog.py[:52]- 'method' object is not subscriptable
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 215, in export_excel
+    workbook.remove[sheet_remove]
+TypeError: 'method' object is not subscriptable
+2020-12-07 15:34:46,286 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件到本地
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:34:50,104 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件到本地
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 15:34:51,248 - ERROR - publicLog.py[:52]- [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 59, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 208, in export_excel
+    workbook.save(excel_abs_dir)  # 保存文件到本地
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\workbook\workbook.py", line 408, in save
+    save_workbook(self, filename)
+  File "E:\envs\shennaji_work1\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "e:\python\lib\zipfile.py", line 1182, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'E:\\python_project\\lhwms\\media\\excels\\系统异常日志.xlsx'
+2020-12-07 16:38:17,965 - ERROR - publicLog.py[:60]- Invalid order_by arguments: ['-']
+2020-12-07 17:19:50,063 - ERROR - publicLog.py[:60]- integer argument expected, got float
+2020-12-07 17:20:25,191 - ERROR - publicLog.py[:60]- integer argument expected, got float
+2020-12-07 17:20:27,210 - ERROR - publicLog.py[:60]- integer argument expected, got float
+2020-12-07 17:20:52,336 - ERROR - publicLog.py[:60]- integer argument expected, got float
+2020-12-07 17:44:07,571 - ERROR - publicLog.py[:60]- 'JsonResponse' object is not callable
+2020-12-07 17:45:46,505 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 17:47:16,578 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 17:47:18,690 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 17:48:35,439 - ERROR - publicLog.py[:60]- expected string or bytes-like object
+2020-12-07 18:01:15,791 - ERROR - publicLog.py[:60]- descriptor 'date' requires a 'datetime.datetime' object but received a 'int'
+2020-12-09 10:49:25,689 - ERROR - publicLog.py[:60]- maximum recursion depth exceeded
+2020-12-09 10:49:42,931 - ERROR - publicLog.py[:60]- maximum recursion depth exceeded
+2020-12-09 16:08:11,668 - ERROR - publicLog.py[:60]- Unsupported lookup 'rang' for DateTimeField or join on the field not permitted.
+2020-12-09 16:10:28,384 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:30:07,878 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:31:15,517 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:35:44,611 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:39:33,889 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:39:53,588 - ERROR - publicLog.py[:60]- name 'err_time__range' is not defined
+2020-12-09 17:52:46,622 - ERROR - publicLog.py[:60]- type object 'datetime.datetime' has no attribute 'datetime'
+2020-12-09 18:22:39,081 - ERROR - publicLog.py[:60]- (1048, "Column 'user_id' cannot be null")
+2020-12-11 13:43:49,604 - ERROR - publicLog.py[:52]- name 'os' is not defined
+Traceback (most recent call last):
+  File "E:\python_project\lhwms\log\views\errlog.py", line 81, in export_excel
+    sheetHeadData=errorLog_sheetHeadData
+  File "E:\python_project\lhwms\lhwms\utils\data_search.py", line 151, in export_excel
+    excel_abs_dir = os.path.join(BASE_DIR, 'media', 'excels', filename)
+NameError: name 'os' is not defined

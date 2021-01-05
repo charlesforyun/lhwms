@@ -1,0 +1,7 @@
+9.24：今天完成queryset-api 中 annotate的用法，实现获取每个学生的每门课程成绩的成绩单，通过使用Sum（'score__count__name’，filter=）中添加过滤器，sum求的是group_by后每个学生的成绩总和，通过过滤实现只有一个课程的成绩，执行多次达到输出每个课程目的；
+    django对于数据库的操作总体表现在模型对象（也就是表单对象）和 queryset对象上。queryset对象遍历之后就是模型对象，核心使用了链式调用比方：anotate返回的是字典queryset对象， 可以执行update操作，update返回是int对象， count也是int对象，get（）这个方法是得到模型对象，但是这个模型返回必须存在，并且只有一个，和fitler().first()得到的结果是一样的，类型都一样，只要理解了queryset和model对象的转换，
+一般来说，都是qeryset对象转model对象，基本上都是queryset对象进行操作，最后才返回model对象进行取值，其中values很好用，实现了queryset对象转换为models对象后提取数据的过程，不然我需要，遍历取值在返回成字典，三步骤之间用queryset可以做到，
+restful api接口是的实现通过，HttJsonResponse返回，
+
+明天：完成成绩单的内部分页实现，这基本上已经涵盖了数据传输的绝大部分操作，同时了解前端如何拿到数据分页，我需要返回什么样的格式的数据，是遍历给他，按照以前的回忆，是内部遍历后，得到数据，实现页码多少，和分页，分多少页面。
+分页完成后，看一下pathlib，然后是垃圾回收，然后是日志实现
