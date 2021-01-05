@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'user',  # 用户管理
     'log',  # 日志管理
+    'incoming'  # 入库管理
 ]
 
 MIDDLEWARE = [

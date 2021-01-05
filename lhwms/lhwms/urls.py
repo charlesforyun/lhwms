@@ -26,7 +26,7 @@ urlpatterns = [
     url(r'^user/', include('user.urls')),
     # url(r'^master/', include('master.urls')),
     url(r'^log/', include('log.urls')),
-    # url(r'^incoming/', include('incoming.urls')),
+    url(r'^incoming/', include('incoming.urls')),
     # url(r'^outgoing/', include('outgoing.urls')),
     # url(r'^drop/', include('drop.urls')),
     # url(r'^transport/', include('transport.urls')),
