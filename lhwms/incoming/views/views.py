@@ -52,7 +52,7 @@ class IncomingApplyCreator(View):
         """
         incoming_doc_mark = request.POST.get('incoming_doc_mark')  # 入库申请(单)编号
         stock_mark = request.POST.get('stock_mark')  # 存放编号
-        # user =
+        # user =  当前用户id为1
         user_id = User.objects.get(pk=1)
 
         apply_cons_mark = request.POST.get('apply_cons_mark')  # 申请施工单位代码/入库申请单位
@@ -108,21 +108,25 @@ class IncomingApplyCreator(View):
             num=num,
             is_approve_reason=is_approve_reason,
         )
-        incoming_apply_file.save()
-        return restful.ok(data='创建入库申请单成功！')
+        try:
+            incoming_apply_file.save()
+            return restful.ok(data='创建入库申请单成功！')
+        except:
+            return restful.server_error(message='已存在该入库申请单编号！')
 
 
 @require_POST
 def incoming_search_data(request):
+    """查询所有入库申请单数据，并返回第一页数据"""
     try:
         # 条件查询数据，保存到缓存中，并实现page=1分页展示
         # {'mat_extend_mark': 'Sd'} <class 'dict'>
-        values = ('id', 'user__user_name')  # 需要展示的值：.value(内容)
+        values = ('id', 'user__user_name', 'incoming_doc_mark')  # 需要展示的值：.value(内容)
         # 查询数据并且缓存
         data_search.data_search(request, INCOMING_MODEL, INCOMING_NAME, values)
         # 首页分页
         data = data_search.data_paginator(request, INCOMING_MODEL, INCOMING_NAME,)
-        return restful.ok(data=data)
+        return data
     except Exception as e:
         log_print(excepts=e)
         errlog_add(request, e.__str__())
@@ -138,18 +142,40 @@ def incoming_paginator_data(request):
 @require_POST
 def incoming_apply_delete(request):
     """删除入库申请单"""
-    pk = request.POST.get('pk')  # 获取当前对象pk值
-    try:
-        delete_incoming_apply = IncomingApply.objects.get(pk=pk)  # 获取需要修改的表
-    except:
-        return restful.un_auth(data='数据不存在，或者查询错误！')
-    permission_enable = delete_incoming_apply.is_enable
-    permission_visible = delete_incoming_apply.is_visible
-    if permission_enable is True or permission_visible is True:
-        return restful.ok(data='您无权限执行此操作！该入库单已通过申请或者已提交')
-    else:
-        delete_incoming_apply.delete()
-        return restful.ok(data='入库申请单已删除！')
+    pks = request.POST.getlist('pk')  # 获取当前入库单pk列表
+    data = []
+    for pk in pks:
+        try:
+            delete_incoming_apply = IncomingApply.objects.get(pk=pk)  # 获取需要修改的表
+        except:
+            return restful.un_auth(data='缓存错误，请刷新页面后重试！')
+        permission_enable = delete_incoming_apply.is_enable
+        permission_visible = delete_incoming_apply.is_visible
+        incoming_doc_mark = delete_incoming_apply.incoming_doc_mark
+        if permission_enable is True or permission_visible is True:
+            data.append('{}:您无权限执行此操作！该入库单已通过申请或者已提交'.
+                        format(incoming_doc_mark))
+        else:
+            delete_incoming_apply.delete()
+            data.append('{}:已删除！'.format(incoming_doc_mark))
+    return restful.ok(data=data)
+
+# @require_POST
+# def incoming_apply_delete(request):
+#     """删除入库申请单"""
+#     pk = request.POST.get('pk')  # 获取当前入库单pk列表
+#
+#     try:
+#         delete_incoming_apply = IncomingApply.objects.get(pk=pk)  # 获取需要修改的表
+#     except:
+#         return restful.un_auth(data='数据不存在，或者查询错误！')
+#     permission_enable = delete_incoming_apply.is_enable
+#     permission_visible = delete_incoming_apply.is_visible
+#     if permission_enable is True or permission_visible is True:
+#         return restful.ok(data='您无权限执行此操作！该入库单已通过申请或者已提交')
+#     else:
+#         delete_incoming_apply.delete()
+#         return restful.ok(data='入库申请单已删除！')
 
 
 @require_POST

@@ -26,7 +26,7 @@ from lhwms.settings import REDIS_HOST
 from lhwms.settings import REDIS_PORT
 
 from user.models import *
-from master.models import *
+# from master.models import *
 from log.models import *
 
 # redis用户查询条件库 连接池

@@ -3,7 +3,7 @@ import os
 import json
 import redis
 
-# from incoming.models import Accessory
+from incoming.models import Accessory
 from lhwms.settings import BASE_DIR
 from django.http import FileResponse
 
@@ -26,10 +26,11 @@ def attachment_uploading(request, model):
     :param model: Accessory外键链接模型对象
     :return:-->dict:文件上传结果信息
     """
-    pk = request.POST.get('pk')  # 获取文件存储连接对象id值
+    pk = request.POST.get('pk')  # 获取文件存储连接对象id值，【申请单对应附件】
     incoming = model.objects.get(pk=pk)  # 获取被上传文件对象
     accessorys = request.FILES.getlist('accessory')  # 获取前端传来的文件对象
     data = {}  # 建立文件上传状态信息dict
+
     for f in accessorys:
         # 判断表中"accessory"是否存在上传的文件,没有保存到数据库中，django自动保存到MEDIA_ROOT
         obj, create = Accessory.objects.get_or_create(accessory=f)
@@ -80,7 +81,7 @@ def file_iterator(file_name, chunk_size=512):
 
 def attachment_download(request):
     """
-    下载附件，pk是一个，可以多个迭代下载
+    下载附件，pk是一个，可以多个迭代下载：：pk指向Accessory.id
     :param request:
     :return: attachment
     """

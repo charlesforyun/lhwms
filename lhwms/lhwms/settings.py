@@ -25,7 +25,7 @@ SECRET_KEY = '@&u*3y9801izx-vy@pz*l)ux@pf0(74kqezewql*4qsp6oa23m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']  # 允许所有主机访问，可以设置指定ip，防止黑客攻击
 
 
 # Application definition

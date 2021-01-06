@@ -22,7 +22,7 @@ class IncomingApply(models.Model):
     '''入库申请明细表'''
     id = models.AutoField(primary_key=True)
     user = models.ForeignKey("user.User", on_delete=models.SET_NULL, null=True)
-    incoming_doc_mark = models.CharField(max_length=16, null=True)  # 入库申请(单)编号
+    incoming_doc_mark = models.CharField(max_length=16, null=True, unique=True)  # 入库申请(单)编号
     stock_mark = models.CharField(max_length=16, null=True)  # 存放编号
 
     apply_cons_mark = models.CharField(max_length=16, db_index=True)  # 申请施工单位代码/入库申请单位
