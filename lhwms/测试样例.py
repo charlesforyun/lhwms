@@ -58,7 +58,7 @@ def apply_crate_test():
     '''创建申请单测试'''
     url_search = root + 'incoming/apply/creator/'
     data1 = {
-        'incoming_doc_mark': '入库申请单编号11',
+        'incoming_doc_mark': '入库申请单编号12',
         'stock_mark': '存放编号',
         'apply_cons_mark': '申请施工单位代码/入库申请单位',
         'asset_name': '资产名称',

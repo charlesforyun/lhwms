@@ -12,7 +12,7 @@ from django.core.serializers.json import DjangoJSONEncoder
 
 '''
 ==================================================
-公用函数：数据ORM条件查询
+公用函数：数据ORM条件查询，by：Charles
 ==================================================
 '''
 

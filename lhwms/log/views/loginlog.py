@@ -20,25 +20,24 @@ from .common import join_fields
 
 from log.views import errlog
 
-
 MASTER_MODEL = Loginlog
 MASTER_NAME = '系统登录日志'
 
 
-@cache_page(12 * 3600) 
-def loginlog(request): 
+@cache_page(12 * 3600)
+def loginlog(request):
     '''加载系统登录日志管理页面'''
-    try: 
+    try:
         return render(request, 'loginlog.html')
 
-    except Exception as e: 
+    except Exception as e:
         errlog.errlog_add(request, str(e))
         return HttpResponse(str(e))
 
 
-def search_data(request): 
-    '''根据条件查询数据'''
-    try: 
+def search_data(request):
+    """根据条件查询数据"""
+    try:
         model = MASTER_MODEL
         query_mark = MASTER_NAME
         check_acc = False
@@ -46,52 +45,54 @@ def search_data(request):
         where = None
         joins = join_fields[MASTER_MODEL.__name__]
 
-        reader.search(request, model, query_mark, request.POST, 
-            check_acc, fun_check, where, joins)
-        
+        reader.search(request, model, query_mark, request.POST,
+                      check_acc, fun_check, where, joins)
+
         msg = '操作成功！已成功执行数据查询操作。'
         info_back = {'type': 1, 'msg': msg}
 
-    except Exception as e: 
+    except Exception as e:
         errlog.errlog_add(request, str(e))
         msg = '操作失败！错误：%s。' % str(e)
         info_back = {'type': 3, 'msg': msg}
 
-    finally: 
+    finally:
         return HttpResponse(json.dumps(info_back))
 
 
-def load_data(request): 
+def load_data(request):
     '''获取分页数据'''
-    try: 
+    try:
         model = MASTER_MODEL
         query_mark = MASTER_NAME
         page_num = int(request.GET['page'])
         row_num = int(request.GET['rows'])
         joins = join_fields[MASTER_MODEL.__name__]
 
-        data = reader.load(request, model, query_mark, page_num, row_num, joins)
+        data = reader.load(request, model, query_mark, page_num, row_num,
+                           joins)
         return HttpResponse(data)
 
-    except Exception as e: 
+    except Exception as e:
         errlog.errlog_add(request, str(e))
         msg = '操作失败！错误：%s。' % str(e)
         info_back = {'type': 3, 'msg': msg}
         return HttpResponse(json.dumps(info_back))
 
 
-def export_excel(request): 
+def export_excel(request):
     '''导出EXCEL'''
-    try: 
+    try:
         model = MASTER_MODEL
         query_mark = MASTER_NAME
         fields_export = export_fields[MASTER_MODEL.__name__]
         joins = join_fields[MASTER_MODEL.__name__]
 
-        response = reader.export_excel(request, model, query_mark, fields_export, joins)
+        response = reader.export_excel(request, model, query_mark,
+                                       fields_export, joins)
         return response
-        
-    except Exception as e: 
+
+    except Exception as e:
         errlog.errlog_add(request, str(e))
         msg = '操作失败！错误：%s。' % str(e)
         info_back = {'type': 3, 'msg': msg}
@@ -99,7 +100,7 @@ def export_excel(request):
 
 
 @require_POST
-def clean_querys(request): 
+def clean_querys(request):
     '''清理缓存'''
     try:
         model = MASTER_MODEL

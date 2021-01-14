@@ -15,11 +15,11 @@ class ImportField(object):
 
 
 def get_template(request, fields):
-    '''
+    """
     获取数据导入模板
     fields: ImportField对象的列表
     return file response
-    '''
+    """
     # 创建Excel工作簿
     book = openpyxl.Workbook()
     sheet = book.active  # worksheet对象建立
@@ -56,14 +56,14 @@ def get_template(request, fields):
 
 
 def read_excel(request, model, query_mark, excel_file, fields, joins=[]):
-    '''
+    """
     读入EXCEL数据并进行数据校验和缓存
     model: model对象
     query_mark: 缓存标识符
     excel_file: 读入excel文件名
     fields: ImportField对象的列表  field.name是什么？
     joins: 关联字段
-    '''
+    """
     max_row_num = 5000  # 最大导入行数
     # 接收上传EXCEL表并读取数据
     excel_file.name = get_ufn(request) + '.xlsx'

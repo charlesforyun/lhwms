@@ -43,7 +43,7 @@ pool_import = redis.ConnectionPool(host=REDIS_HOST,
 
 
 def get_ufn(request):
-    '''生成唯一文件名'''
+    """生成唯一文件名"""
     tk = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
     m = hashlib.md5()
     m.update(bytes(tk, encoding='utf8'))

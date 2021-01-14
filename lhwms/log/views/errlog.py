@@ -18,12 +18,13 @@ MASTER_MODEL = Errlog
 MASTER_NAME = '系统异常日志'  # 作为rc定位key值、excel临时文件名称
 
 
+@require_POST
 def search_data(request):
-    '''
+    """
     根据条件查询数据,并获取第一页数据
     example：terms={'id': 79},values=('id', 'path', 'error'))
     :return data=data_paginator()
-    '''
+    """
 
     try:
         model = MASTER_MODEL
@@ -51,7 +52,7 @@ def search_data(request):
 
 
 def load_data(request):
-    '''获取分页数据'''
+    """获取分页数据"""
     try:
         model = MASTER_MODEL
         query_mark = MASTER_NAME
@@ -66,7 +67,7 @@ def load_data(request):
 
 
 def export_excel(request):
-    '''导出EXCEL'''
+    """导出EXCEL"""
     try:
         model = MASTER_MODEL
         query_mark = MASTER_NAME
@@ -91,7 +92,7 @@ def export_excel(request):
 
 @require_POST
 def clean_querys(request):
-    '''清理全部缓存'''
+    """清理全部缓存"""
     try:
         model = MASTER_MODEL
         query_mark = MASTER_NAME
